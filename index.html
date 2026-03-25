@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Elite - Estilo e Tradição</title>
+    <style>
+        /* Estilos Visuais */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; text-align: center; background: #0a0a0a; color: #eeeeee; line-height: 1.6; }
+        
+        .header { 
+            padding: 80px 20px; 
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800'); 
+            background-size: cover; 
+            background-position: center; 
+            border-bottom: 4px solid #d4af37; 
+        }
+
+        h1 { color: #d4af37; font-size: 2.8em; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        .sub { font-size: 1.1em; color: #aaa; margin-top: 10px; }
+
+        .servicos { padding: 40px 25px; max-width: 500px; margin: auto; }
+        h2 { border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 5px; margin-bottom: 30px; }
+
+        .item { 
+            background: #1a1a1a; 
+            margin: 15px 0; 
+            padding: 20px; 
+            border-radius: 12px; 
+            border-left: 5px solid #d4af37; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .preco { color: #d4af37; font-weight: bold; font-size: 1.2em; }
+
+        .btn-whats { 
+            display: block; 
+            background: #25d366; 
+            color: white; 
+            padding: 20px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            margin: 40px 25px; 
+            font-size: 1.2em;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            transition: transform 0.2s;
+        }
+
+        footer { padding: 30px; background: #000; font-size: 0.9em; color: #555; }
+        .localizacao { color: #d4af37; margin-bottom: 10px; display: block; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>BARBEARIA ELITE</h1>
+        <p class="sub">Corte Americano, Nevou e Barba Premium</p>
+    </div>
+
+    <div class="servicos">
+        <h2>Nossos Serviços</h2>
+        
+        <div class="item">
+            <span>Corte Social</span>
+            <span class="preco">R$ 35</span>
+        </div>
+
+        <div class="item">
+            <span>Corte Americano</span>
+            <span class="preco">R$ 45</span>
+        </div>
+
+        <div class="item">
+            <span>Nevou / Platinado</span>
+            <span class="preco">R$ 80</span>
+        </div>
+
+        <div class="item">
+            <span>Barba Completa</span>
+            <span class="preco">R$ 30</span>
+        </div>
+
+        <a href="https://wa.me/5511999999999?text=Olá!%20Vi%20o%20site%20e%20quero%20agendar%20um%20horário." class="btn-whats">
+            ✅ AGENDAR HORÁRIO AGORA
+        </a>
+    </div>
+
+    <footer>
+        <span class="localizacao">📍 Rua das Barbearias, 123 - Centro</span>
+        © 2026 Barbearia Elite - Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
